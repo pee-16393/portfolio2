@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="th">
-
 <head>
 
     <meta charset="UTF-8">
@@ -10,141 +9,157 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 </head>
 
 <body>
 
-<header>
-    <nav class="navbar">
+<header class="navbar">
 
-        <div class="logo">
-            <span>PORT</span>FOLIO
-        </div>
+    <div class="logo">
+        <span>MY</span> PORTFOLIO
+    </div>
 
-        <div class="menu">
-            <a href="index.html">หน้าหลัก</a>
-            <a class="active" href="profile.html">ประวัติส่วนตัว</a>
-            <a href="education.html">การศึกษา</a>
-            <a href="awards.html">รางวัล</a>
-            <a href="activities.html">กิจกรรม</a>
-            <a href="contact.html">ติดต่อ</a>
-        </div>
-
+    <nav>
+        <a href="index.html">หน้าแรก</a>
+        <a href="profile.html" class="active">ประวัติส่วนตัว</a>
+        <a href="education.html">การศึกษา</a>
+        <a href="awards.html">รางวัล</a>
+        <a href="activities.html">กิจกรรม</a>
+        <a href="contact.html">ติดต่อ</a>
     </nav>
+
 </header>
 
 
-<section class="page-header">
+<main class="page">
 
-    <p>ABOUT ME</p>
+    <div class="page-heading">
 
-    <h1>ประวัติส่วนตัว</h1>
+        <p>01 / ABOUT ME</p>
 
-    <span>
-        ทำความรู้จักตัวตน ความสนใจ และเป้าหมายของผม
-    </span>
+        <h1>
+            ประวัติ<span>ส่วนตัว</span>
+        </h1>
 
-</section>
+        <p>
+            ข้อมูลส่วนตัว ความสามารถ ความสนใจ
+            และเป้าหมายในอนาคต
+        </p>
+
+    </div>
 
 
-<section class="content">
+    <section class="profile-layout">
 
-    <div class="profile-layout">
+        <div class="profile-photo">
 
-        <div class="profile-image">
-
-            <img src="images/profile.jpg" alt="Profile">
+            <img src="assets/profile.jpg"
+                 alt="รูปนักเรียน">
 
         </div>
 
 
-        <div class="profile-info">
+        <div class="profile-content">
 
-            <p class="tag">ABOUT ME</p>
+            <h2>
+                สวัสดีครับ ผมชื่อ
+                <span>[ชื่อ-นามสกุล]</span>
+            </h2>
 
-            <h2>[ชื่อ-นามสกุล]</h2>
-
-            <p>
-                สวัสดีครับ ผมเป็นนักเรียนระดับชั้นมัธยมศึกษาปีที่ 6
-                มีความสนใจในการเรียนรู้สิ่งใหม่ ๆ
-                และต้องการพัฒนาตนเองอยู่เสมอ
+            <p class="description">
+                ปัจจุบันกำลังศึกษาอยู่ระดับชั้นมัธยมศึกษาปีที่ 6
+                เป็นคนที่มีความสนใจในการเรียนรู้สิ่งใหม่ ๆ
+                ชอบพัฒนาตนเอง และสนใจด้านเทคโนโลยี
+                การออกแบบ และการสร้างผลงานต่าง ๆ
             </p>
 
-            <p>
-                ผมให้ความสำคัญกับการเรียน การทำกิจกรรม
-                การทำงานร่วมกับผู้อื่น และการนำความรู้
-                มาประยุกต์ใช้ให้เกิดประโยชน์
-            </p>
 
             <div class="info-list">
 
                 <div>
-                    <b>ชื่อ</b>
-                    <span>[ชื่อ]</span>
+                    <i class="fa-solid fa-user"></i>
+                    <strong>ชื่อเล่น:</strong>
+                    [ชื่อเล่น]
                 </div>
 
                 <div>
-                    <b>นามสกุล</b>
-                    <span>[นามสกุล]</span>
+                    <i class="fa-solid fa-calendar"></i>
+                    <strong>วันเกิด:</strong>
+                    [วัน/เดือน/ปีเกิด]
                 </div>
 
                 <div>
-                    <b>ระดับชั้น</b>
-                    <span>มัธยมศึกษาปีที่ 6</span>
+                    <i class="fa-solid fa-school"></i>
+                    <strong>ระดับการศึกษา:</strong>
+                    มัธยมศึกษาปีที่ 6
                 </div>
 
                 <div>
-                    <b>โรงเรียน</b>
-                    <span>[ชื่อโรงเรียน]</span>
-                </div>
-
-                <div>
-                    <b>แผนการเรียน</b>
-                    <span>[วิทย์-คณิต / ศิลป์ / อื่น ๆ]</span>
-                </div>
-
-                <div>
-                    <b>ความสนใจ</b>
-                    <span>[เทคโนโลยี / กีฬา / ศิลปะ / ฯลฯ]</span>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <strong>จังหวัด:</strong>
+                    [จังหวัด]
                 </div>
 
             </div>
 
         </div>
 
-    </div>
+    </section>
 
 
-    <div class="section-title">
+    <section class="content-box">
 
-        <p>MY GOAL</p>
+        <h2>
+            <i class="fa-solid fa-star"></i>
+            ความสนใจ
+        </h2>
 
-        <h2>เป้าหมายในอนาคต</h2>
+        <div class="tag-list">
 
-    </div>
+            <span>Technology</span>
+            <span>Computer</span>
+            <span>Web Design</span>
+            <span>Programming</span>
+            <span>Graphic Design</span>
+            <span>Photography</span>
+
+        </div>
+
+    </section>
 
 
-    <div class="goal-card">
+    <section class="content-box">
 
-        <h3>เป้าหมายของผม</h3>
+        <h2>
+            <i class="fa-solid fa-bullseye"></i>
+            เป้าหมายในอนาคต
+        </h2>
 
         <p>
-            ผมมีเป้าหมายที่จะศึกษาต่อในระดับมหาวิทยาลัย
-            ในสาขาที่ตรงกับความสนใจและความสามารถของตนเอง
-            พร้อมทั้งพัฒนาความรู้ ทักษะ และประสบการณ์
-            เพื่อนำไปใช้ในการประกอบอาชีพในอนาคต
+            เป้าหมายของผมคือการนำความรู้และประสบการณ์
+            ที่ได้รับจากการศึกษาไปพัฒนาต่อยอดในระดับมหาวิทยาลัย
+            และสร้างผลงานที่สามารถนำไปใช้ได้จริง
+            พร้อมพัฒนาทักษะของตนเองอย่างต่อเนื่อง
         </p>
 
-    </div>
+    </section>
 
-</section>
+</main>
 
 
 <footer>
-    <p>© 2026 [ชื่อ-นามสกุล] | M.6 Portfolio</p>
+    <p>© 2026 [ชื่อ-นามสกุล] | Portfolio</p>
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
