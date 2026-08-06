@@ -4,126 +4,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Portfolio | [ชื่อ-นามสกุล]</title>
+    <title>Portfolio | M.6 Student</title>
+
+    <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header class="navbar">
+<header>
+    <nav class="navbar">
 
-    <a href="index.html" class="logo">
-        <span>&lt;</span>PORTFOLIO<span>/&gt;</span>
-    </a>
+        <div class="logo">
+            <span>PORT</span>FOLIO
+        </div>
 
-    <nav>
-        <a href="index.html">หน้าหลัก</a>
-        <a href="ประวัติส่วนตัว.html">ประวัติส่วนตัว</a>
-        <a href="การศึกษา.html">การศึกษา</a>
-        <a href="รางวัล.html">รางวัล</a>
-        <a href="กิจกรรม.html">กิจกรรม</a>
-        <a href="ติดต่อ.html">ติดต่อ</a>
+        <div class="menu">
+            <a class="active" href="index.html">หน้าหลัก</a>
+            <a href="profile.html">ประวัติส่วนตัว</a>
+            <a href="education.html">การศึกษา</a>
+            <a href="awards.html">รางวัล</a>
+            <a href="activities.html">กิจกรรม</a>
+            <a href="contact.html">ติดต่อ</a>
+        </div>
+
     </nav>
-
 </header>
 
 
-<main class="home">
+<main class="hero">
 
-    <div class="home-text">
+    <div class="hero-text">
 
-        <p class="red-title">
-            STUDENT PORTFOLIO
-        </p>
+        <p class="small-title">MY PORTFOLIO • M.6 STUDENT</p>
 
         <h1>
-            สวัสดีครับ<br>
+            สวัสดีครับ
+            <br>
             ผมชื่อ <span>[ชื่อ-นามสกุล]</span>
         </h1>
 
-        <h2>
-            นักเรียนระดับชั้นมัธยมศึกษาปีที่ 6
-        </h2>
-
-        <p>
-            เว็บไซต์ Portfolio สำหรับนำเสนอประวัติส่วนตัว
-            ประวัติการศึกษา รางวัลและเกียรติบัตร
-            ผลงาน กิจกรรม และช่องทางการติดต่อ
+        <p class="description">
+            Portfolio สำหรับรวบรวมประวัติส่วนตัว ประวัติการศึกษา
+            ผลงาน รางวัล กิจกรรม และประสบการณ์ต่าง ๆ
+            ตลอดช่วงการเรียนระดับมัธยมศึกษา
         </p>
 
-        <a href="ประวัติส่วนตัว.html" class="main-button">
-            เริ่มดู Portfolio
-            <i class="fa-solid fa-arrow-right"></i>
-        </a>
+        <div class="buttons">
+
+            <a href="profile.html" class="btn red">
+                ดูประวัติส่วนตัว
+            </a>
+
+            <a href="activities.html" class="btn dark">
+                ดูผลงานของฉัน
+            </a>
+
+        </div>
 
     </div>
 
 
-    <div class="profile-box">
+    <div class="hero-image">
 
-        <div class="profile-border">
+        <div class="circle"></div>
 
-            <img src="images/profile.jpg"
-                 alt="รูปโปรไฟล์">
-
-        </div>
-
-        <p>GRADE 12 / M.6</p>
+        <img src="images/profile.jpg" alt="Profile">
 
     </div>
 
 </main>
 
 
-<section class="quick-menu">
+<section class="quick">
 
-    <a href="ประวัติส่วนตัว.html">
-        <i class="fa-solid fa-user"></i>
-        <span>ประวัติส่วนตัว</span>
-        <small>ABOUT ME</small>
-    </a>
+    <h2>MY PORTFOLIO</h2>
 
-    <a href="การศึกษา.html">
-        <i class="fa-solid fa-graduation-cap"></i>
-        <span>ประวัติการศึกษา</span>
-        <small>EDUCATION</small>
-    </a>
+    <p>
+        เก็บรวบรวมเรื่องราว ความสามารถ และประสบการณ์
+        ที่แสดงถึงตัวตนของผม
+    </p>
 
-    <a href="รางวัล.html">
-        <i class="fa-solid fa-trophy"></i>
-        <span>รางวัลและเกียรติบัตร</span>
-        <small>AWARDS</small>
-    </a>
+    <div class="quick-grid">
 
-    <a href="กิจกรรม.html">
-        <i class="fa-solid fa-bolt"></i>
-        <span>ผลงานและกิจกรรม</span>
-        <small>ACTIVITIES</small>
-    </a>
+        <a href="profile.html" class="quick-card">
+            <div>01</div>
+            <h3>ประวัติส่วนตัว</h3>
+            <p>ข้อมูลเกี่ยวกับตัวผม ความสนใจ และเป้าหมาย</p>
+        </a>
 
-    <a href="ติดต่อ.html">
-        <i class="fa-solid fa-envelope"></i>
-        <span>ช่องทางติดต่อ</span>
-        <small>CONTACT</small>
-    </a>
+        <a href="education.html" class="quick-card">
+            <div>02</div>
+            <h3>ประวัติการศึกษา</h3>
+            <p>เส้นทางการศึกษาและความรู้ที่ได้รับ</p>
+        </a>
+
+        <a href="awards.html" class="quick-card">
+            <div>03</div>
+            <h3>รางวัลและเกียรติบัตร</h3>
+            <p>ผลงานและใบประกาศนียบัตรที่ได้รับ</p>
+        </a>
+
+        <a href="activities.html" class="quick-card">
+            <div>04</div>
+            <h3>ผลงานและกิจกรรม</h3>
+            <p>กิจกรรมและประสบการณ์ที่เคยเข้าร่วม</p>
+        </a>
+
+        <a href="contact.html" class="quick-card">
+            <div>05</div>
+            <h3>ช่องทางติดต่อ</h3>
+            <p>ช่องทางสำหรับติดต่อและติดตาม</p>
+        </a>
+
+    </div>
 
 </section>
 
 
 <footer>
-    © 2026 [ชื่อ-นามสกุล] | M.6 Student Portfolio
+    <p>© 2026 [ชื่อ-นามสกุล] | M.6 Portfolio</p>
 </footer>
-
-<script src="script.js"></script>
 
 </body>
 </html>
