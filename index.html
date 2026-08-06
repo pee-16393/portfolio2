@@ -2,750 +2,126 @@
 <html lang="th">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
-    <meta name="description"
-          content="Portfolio นักเรียนระดับชั้นมัธยมศึกษาปีที่ 6">
-
-    <title>Portfolio | นักเรียน ม.6</title>
-
-    <link rel="stylesheet" href="style.css">
+    <title>Portfolio | [ชื่อ-นามสกุล]</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- =========================
-     Navigation
-========================= -->
+<header class="navbar">
 
-<header class="header">
+    <a href="index.html" class="logo">
+        <span>&lt;</span>PORTFOLIO<span>/&gt;</span>
+    </a>
 
-    <nav class="navbar">
-
-        <a href="#home" class="logo">
-            Portfolio
-        </a>
-
-        <button class="menu-btn" id="menuBtn">
-            ☰
-        </button>
-
-        <ul class="nav-menu" id="navMenu">
-
-            <li>
-                <a href="#home">หน้าแรก</a>
-            </li>
-
-            <li>
-                <a href="#about">ประวัติส่วนตัว</a>
-            </li>
-
-            <li>
-                <a href="#education">การศึกษา</a>
-            </li>
-
-            <li>
-                <a href="#awards">รางวัล</a>
-            </li>
-
-            <li>
-                <a href="#activities">กิจกรรม</a>
-            </li>
-
-            <li>
-                <a href="#contact">ติดต่อ</a>
-            </li>
-
-        </ul>
-
+    <nav>
+        <a href="index.html">หน้าหลัก</a>
+        <a href="ประวัติส่วนตัว.html">ประวัติส่วนตัว</a>
+        <a href="การศึกษา.html">การศึกษา</a>
+        <a href="รางวัล.html">รางวัล</a>
+        <a href="กิจกรรม.html">กิจกรรม</a>
+        <a href="ติดต่อ.html">ติดต่อ</a>
     </nav>
 
 </header>
 
 
-<!-- =========================
-     Home
-========================= -->
+<main class="home">
 
-<section id="home" class="hero">
+    <div class="home-text">
 
-    <div class="hero-content">
-
-        <p class="hello">
-            ยินดีต้อนรับสู่ Portfolio
+        <p class="red-title">
+            STUDENT PORTFOLIO
         </p>
 
         <h1>
-            สวัสดีครับ
-            <br>
+            สวัสดีครับ<br>
             ผมชื่อ <span>[ชื่อ-นามสกุล]</span>
         </h1>
 
-        <p class="hero-description">
+        <h2>
             นักเรียนระดับชั้นมัธยมศึกษาปีที่ 6
-            ผู้มีความสนใจในการเรียนรู้ พัฒนาตนเอง
-            และสร้างประสบการณ์จากกิจกรรมต่าง ๆ
+        </h2>
+
+        <p>
+            เว็บไซต์ Portfolio สำหรับนำเสนอประวัติส่วนตัว
+            ประวัติการศึกษา รางวัลและเกียรติบัตร
+            ผลงาน กิจกรรม และช่องทางการติดต่อ
         </p>
 
-        <div class="hero-buttons">
-
-            <a href="#about" class="btn">
-                รู้จักผมมากขึ้น
-            </a>
-
-            <a href="#contact" class="btn btn-outline">
-                ติดต่อผม
-            </a>
-
-        </div>
+        <a href="ประวัติส่วนตัว.html" class="main-button">
+            เริ่มดู Portfolio
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
 
     </div>
 
-    <div class="hero-image">
 
-        <img src="images/profile.jpg"
-             alt="รูปโปรไฟล์">
+    <div class="profile-box">
 
-    </div>
-
-</section>
-
-
-<!-- =========================
-     About
-========================= -->
-
-<section id="about" class="section">
-
-    <div class="section-title">
-
-        <p>ABOUT ME</p>
-
-        <h2>ประวัติส่วนตัว</h2>
-
-    </div>
-
-    <div class="about-container">
-
-        <div class="about-image">
+        <div class="profile-border">
 
             <img src="images/profile.jpg"
-                 alt="รูปนักเรียน">
+                 alt="รูปโปรไฟล์">
 
         </div>
 
-        <div class="about-content">
-
-            <h3>
-                เกี่ยวกับฉัน
-            </h3>
-
-            <p>
-                สวัสดีครับ ผมชื่อ
-                <strong>[ชื่อ-นามสกุล]</strong>
-                ปัจจุบันกำลังศึกษาอยู่ในระดับชั้น
-                มัธยมศึกษาปีที่ 6
-            </p>
-
-            <p>
-                ผมเป็นคนที่มีความตั้งใจในการเรียน
-                ชอบเรียนรู้สิ่งใหม่ ๆ
-                และสนใจการพัฒนาทักษะของตนเอง
-                ผ่านการเรียน กิจกรรม และประสบการณ์ต่าง ๆ
-            </p>
-
-            <div class="info-grid">
-
-                <div class="info-item">
-                    <strong>ชื่อ</strong>
-                    <span>[ชื่อ]</span>
-                </div>
-
-                <div class="info-item">
-                    <strong>นามสกุล</strong>
-                    <span>[นามสกุล]</span>
-                </div>
-
-                <div class="info-item">
-                    <strong>ระดับชั้น</strong>
-                    <span>มัธยมศึกษาปีที่ 6</span>
-                </div>
-
-                <div class="info-item">
-                    <strong>โรงเรียน</strong>
-                    <span>[ชื่อโรงเรียน]</span>
-                </div>
-
-                <div class="info-item">
-                    <strong>แผนการเรียน</strong>
-                    <span>[แผนการเรียน]</span>
-                </div>
-
-                <div class="info-item">
-                    <strong>งานอดิเรก</strong>
-                    <span>[งานอดิเรก]</span>
-                </div>
-
-            </div>
-
-        </div>
+        <p>GRADE 12 / M.6</p>
 
     </div>
+
+</main>
+
+
+<section class="quick-menu">
+
+    <a href="ประวัติส่วนตัว.html">
+        <i class="fa-solid fa-user"></i>
+        <span>ประวัติส่วนตัว</span>
+        <small>ABOUT ME</small>
+    </a>
+
+    <a href="การศึกษา.html">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <span>ประวัติการศึกษา</span>
+        <small>EDUCATION</small>
+    </a>
+
+    <a href="รางวัล.html">
+        <i class="fa-solid fa-trophy"></i>
+        <span>รางวัลและเกียรติบัตร</span>
+        <small>AWARDS</small>
+    </a>
+
+    <a href="กิจกรรม.html">
+        <i class="fa-solid fa-bolt"></i>
+        <span>ผลงานและกิจกรรม</span>
+        <small>ACTIVITIES</small>
+    </a>
+
+    <a href="ติดต่อ.html">
+        <i class="fa-solid fa-envelope"></i>
+        <span>ช่องทางติดต่อ</span>
+        <small>CONTACT</small>
+    </a>
 
 </section>
 
-
-<!-- =========================
-     Education
-========================= -->
-
-<section id="education" class="section section-light">
-
-    <div class="section-title">
-
-        <p>EDUCATION</p>
-
-        <h2>ประวัติการศึกษา</h2>
-
-    </div>
-
-    <div class="timeline">
-
-        <div class="timeline-item">
-
-            <div class="timeline-dot"></div>
-
-            <div class="timeline-content">
-
-                <span>ระดับประถมศึกษา</span>
-
-                <h3>
-                    [ชื่อโรงเรียน]
-                </h3>
-
-                <p>
-                    ศึกษาระดับประถมศึกษา
-                    และได้เรียนรู้พื้นฐานด้านต่าง ๆ
-                    ทั้งวิชาการและการทำกิจกรรม
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="timeline-item">
-
-            <div class="timeline-dot"></div>
-
-            <div class="timeline-content">
-
-                <span>ระดับมัธยมศึกษาตอนต้น</span>
-
-                <h3>
-                    [ชื่อโรงเรียน]
-                </h3>
-
-                <p>
-                    ศึกษาระดับมัธยมศึกษาตอนต้น
-                    มีโอกาสเข้าร่วมกิจกรรมของโรงเรียน
-                    และพัฒนาทักษะการทำงานร่วมกับผู้อื่น
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="timeline-item">
-
-            <div class="timeline-dot"></div>
-
-            <div class="timeline-content">
-
-                <span>ระดับมัธยมศึกษาตอนปลาย</span>
-
-                <h3>
-                    [ชื่อโรงเรียน]
-                </h3>
-
-                <p>
-                    ปัจจุบันกำลังศึกษาอยู่ชั้นมัธยมศึกษาปีที่ 6
-                    โดยมุ่งมั่นพัฒนาความรู้ ความสามารถ
-                    และประสบการณ์เพื่อเตรียมความพร้อม
-                    สำหรับการศึกษาต่อในระดับมหาวิทยาลัย
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     Awards
-========================= -->
-
-<section id="awards" class="section">
-
-    <div class="section-title">
-
-        <p>AWARDS & CERTIFICATES</p>
-
-        <h2>รางวัลและเกียรติบัตร</h2>
-
-    </div>
-
-    <div class="card-grid">
-
-
-        <div class="card">
-
-            <img src="images/certificate1.jpg"
-                 alt="เกียรติบัตรที่ 1">
-
-            <div class="card-content">
-
-                <span class="card-number">
-                    CERTIFICATE 01
-                </span>
-
-                <h3>
-                    [ชื่อรางวัลหรือเกียรติบัตร]
-                </h3>
-
-                <p>
-                    ได้รับเกียรติบัตรจาก
-                    [ชื่อหน่วยงาน/โรงเรียน]
-                    จากการเข้าร่วม
-                    [ชื่อกิจกรรมหรือการแข่งขัน]
-                </p>
-
-                <p>
-                    ปีที่ได้รับ: [พ.ศ.]
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="card">
-
-            <img src="images/certificate2.jpg"
-                 alt="เกียรติบัตรที่ 2">
-
-            <div class="card-content">
-
-                <span class="card-number">
-                    CERTIFICATE 02
-                </span>
-
-                <h3>
-                    [ชื่อรางวัลหรือเกียรติบัตร]
-                </h3>
-
-                <p>
-                    ได้เข้าร่วมกิจกรรม
-                    [ชื่อกิจกรรม]
-                    และได้รับการรับรองจาก
-                    [ชื่อหน่วยงาน]
-                </p>
-
-                <p>
-                    ปีที่ได้รับ: [พ.ศ.]
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="card">
-
-            <div class="card-icon">
-                🏆
-            </div>
-
-            <div class="card-content">
-
-                <span class="card-number">
-                    AWARD 03
-                </span>
-
-                <h3>
-                    [ชื่อรางวัล]
-                </h3>
-
-                <p>
-                    รายละเอียดเกี่ยวกับรางวัล
-                    ผลงาน หรือการแข่งขัน
-                    ที่ได้รับ
-                </p>
-
-            </div>
-
-        </div>
-
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     Activities
-========================= -->
-
-<section id="activities" class="section section-light">
-
-    <div class="section-title">
-
-        <p>ACTIVITIES & WORKS</p>
-
-        <h2>ผลงานและกิจกรรม</h2>
-
-    </div>
-
-    <div class="activity-grid">
-
-
-        <div class="activity-card">
-
-            <img src="images/activity1.jpg"
-                 alt="กิจกรรมที่ 1">
-
-            <div class="activity-content">
-
-                <span>
-                    กิจกรรมที่ 01
-                </span>
-
-                <h3>
-                    [ชื่อกิจกรรม]
-                </h3>
-
-                <p>
-                    เข้าร่วมกิจกรรม
-                    [รายละเอียดกิจกรรม]
-                    ทำให้ได้เรียนรู้การทำงานร่วมกับผู้อื่น
-                    การแบ่งหน้าที่ และความรับผิดชอบ
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="activity-card">
-
-            <img src="images/activity2.jpg"
-                 alt="กิจกรรมที่ 2">
-
-            <div class="activity-content">
-
-                <span>
-                    กิจกรรมที่ 02
-                </span>
-
-                <h3>
-                    [ชื่อกิจกรรม]
-                </h3>
-
-                <p>
-                    ได้มีส่วนร่วมในกิจกรรมของโรงเรียน
-                    และได้รับประสบการณ์ใหม่ ๆ
-                    รวมถึงได้พัฒนาทักษะการทำงานเป็นทีม
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="activity-card">
-
-            <div class="activity-icon">
-                💻
-            </div>
-
-            <div class="activity-content">
-
-                <span>
-                    ผลงาน
-                </span>
-
-                <h3>
-                    Portfolio Website
-                </h3>
-
-                <p>
-                    สร้างเว็บไซต์ Portfolio
-                    เพื่อรวบรวมประวัติส่วนตัว
-                    ประวัติการศึกษา ผลงาน
-                    กิจกรรม และข้อมูลการติดต่อ
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="activity-card">
-
-            <div class="activity-icon">
-                🌱
-            </div>
-
-            <div class="activity-content">
-
-                <span>
-                    โครงงาน
-                </span>
-
-                <h3>
-                    [ชื่อโครงงาน]
-                </h3>
-
-                <p>
-                    รายละเอียดเกี่ยวกับโครงงาน
-                    แนวคิด ขั้นตอนการทำงาน
-                    และสิ่งที่ได้รับจากการทำโครงงาน
-                </p>
-
-            </div>
-
-        </div>
-
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     Skills
-========================= -->
-
-<section class="section">
-
-    <div class="section-title">
-
-        <p>MY SKILLS</p>
-
-        <h2>ทักษะและความสามารถ</h2>
-
-    </div>
-
-    <div class="skills">
-
-        <div class="skill">
-
-            <div class="skill-title">
-
-                <span>
-                    การทำงานเป็นทีม
-                </span>
-
-                <span>
-                    85%
-                </span>
-
-            </div>
-
-            <div class="progress">
-                <div style="width:85%"></div>
-            </div>
-
-        </div>
-
-
-        <div class="skill">
-
-            <div class="skill-title">
-
-                <span>
-                    การใช้คอมพิวเตอร์
-                </span>
-
-                <span>
-                    80%
-                </span>
-
-            </div>
-
-            <div class="progress">
-                <div style="width:80%"></div>
-            </div>
-
-        </div>
-
-
-        <div class="skill">
-
-            <div class="skill-title">
-
-                <span>
-                    การนำเสนอ
-                </span>
-
-                <span>
-                    75%
-                </span>
-
-            </div>
-
-            <div class="progress">
-                <div style="width:75%"></div>
-            </div>
-
-        </div>
-
-
-        <div class="skill">
-
-            <div class="skill-title">
-
-                <span>
-                    การเรียนรู้สิ่งใหม่
-                </span>
-
-                <span>
-                    90%
-                </span>
-
-            </div>
-
-            <div class="progress">
-                <div style="width:90%"></div>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     Contact
-========================= -->
-
-<section id="contact" class="contact-section">
-
-    <div class="section-title">
-
-        <p>CONTACT</p>
-
-        <h2>ช่องทางติดต่อ</h2>
-
-    </div>
-
-    <div class="contact-container">
-
-
-        <div class="contact-card">
-
-            <div class="contact-icon">
-                📧
-            </div>
-
-            <h3>
-                Email
-            </h3>
-
-            <p>
-                example@email.com
-            </p>
-
-        </div>
-
-
-        <div class="contact-card">
-
-            <div class="contact-icon">
-                📱
-            </div>
-
-            <h3>
-                โทรศัพท์
-            </h3>
-
-            <p>
-                08X-XXX-XXXX
-            </p>
-
-        </div>
-
-
-        <div class="contact-card">
-
-            <div class="contact-icon">
-                📘
-            </div>
-
-            <h3>
-                Facebook
-            </h3>
-
-            <p>
-                [Facebook ของคุณ]
-            </p>
-
-        </div>
-
-
-        <div class="contact-card">
-
-            <div class="contact-icon">
-                📷
-            </div>
-
-            <h3>
-                Instagram
-            </h3>
-
-            <p>
-                @[Instagram ของคุณ]
-            </p>
-
-        </div>
-
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     Footer
-========================= -->
 
 <footer>
-
-    <p>
-        © 2026 [ชื่อ-นามสกุล]
-    </p>
-
-    <p>
-        Portfolio มัธยมศึกษาปีที่ 6
-    </p>
-
+    © 2026 [ชื่อ-นามสกุล] | M.6 Student Portfolio
 </footer>
-
-
-<!-- JavaScript -->
 
 <script src="script.js"></script>
 
